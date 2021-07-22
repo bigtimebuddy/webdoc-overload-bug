@@ -1,0 +1,19 @@
+{
+    "source": {
+      "include": "src/*.ts",
+      "excludePattern": "(node_modules|lib|test)"
+    },
+    "plugins": [
+      "plugins/markdown"
+    ],
+    "templates": {},
+    "opts": {
+      "destination": "docs",
+      "template": "@pixi/webdoc-template",
+      "export": "docs/api.json"
+    },
+    "template": {
+      "repository": "https://github.com/bigtimebuddy/webdoc-ignore-bug/",
+      "outputSourceFiles": true
+    }
+  }

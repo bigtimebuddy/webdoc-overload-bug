@@ -1,0 +1,15 @@
+{
+  "name": "webdoc-overload-bug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pretest": "rm -rf docs",
+    "test": "webdoc"
+  },
+  "author": "Matt Karl",
+  "license": "MIT",
+  "devDependencies": {
+    "@pixi/webdoc-template": "^1.3.4",
+    "@webdoc/cli": "^1.5.2"
+  }
+}
